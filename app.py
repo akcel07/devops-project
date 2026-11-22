@@ -22,7 +22,7 @@ def create_app():
 
     @app.get("/health")
     def health():
-        return {"status": "ko"}
+        return {"status": "ok"}
 
     @app.get("/visits")
     def visits():
